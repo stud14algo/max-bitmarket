@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color: #2AE527;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #BCE2BB;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1100px;
+    margin: 0px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #67CB66;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    display: flex;
+    background-color: #04D600;
+    padding: 40px 180px;
+    width: 100%;
+}
+
+footer a {
+    margin-right: 120px;
+}
+
+footer p {
+    font-size: 24px;
+}
